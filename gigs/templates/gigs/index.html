@@ -1,0 +1,13 @@
+{% if gigs %}
+    <ul>
+        {% for gig in gigs %}
+            <li>
+                {{ gig.date_time }} | <a href="{{ gig.location_link }}" target="_blank">{{gig.location_name }}</a> | <a href="{{gig.fb_event}}" target="_blank">Facebook Event</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+{% else %}
+    <p>No gigs at this time. Please check back soon!</p>
+
+{% endif %}
