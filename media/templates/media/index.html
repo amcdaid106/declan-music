@@ -1,0 +1,26 @@
+{% include "home/navbar.html" %}
+{% load staticfiles %}
+{% load embed_video_tags %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'media/style.css' %}" />
+
+
+{% if videos %}
+    <table>
+        {% for video in videos %}
+            <tr>
+                <td>
+                    {% video video.clip as boniche %}
+                    {% video boniche "medium" %}
+                    {% endvideo %}
+                </td>
+            </tr>
+            <tr>
+                <td>{{ video.caption }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>No media at this time. Please check back soon!</p>
+
+{% endif %}

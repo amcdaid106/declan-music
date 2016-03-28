@@ -1,11 +1,25 @@
+{% include "home/navbar.html" %}
+
+{% load staticfiles %}
+
+
+<link rel="stylesheet" type="text/css" href="{% static 'gigs/style.css' %}" />
+
 {% if gigs %}
-    <ul>
+    <table>
+        <tr>
+            <th>When</th>
+            <th>Where</th>
+            <th>Facebook</th>
+        </tr>
         {% for gig in gigs %}
-            <li>
-                {{ gig.date_time }} | <a href="{{ gig.location_link }}" target="_blank">{{gig.location_name }}</a> | <a href="{{gig.fb_event}}" target="_blank">Facebook Event</a>
-            </li>
+            <tr>
+                <td>{{ gig.date_time }}</td>
+                <td><a href="{{ gig.location_link }}" target="_blank">{{gig.location_name }}</a></td>
+                <td><a href="{{gig.fb_event}}" target="_blank"><img src="{% static "gigs/images/facebook.jpg" %}" alt="facebook logo" width="16px"/></a></td>
+            </tr>
         {% endfor %}
-    </ul>
+    </table>
 
 {% else %}
     <p>No gigs at this time. Please check back soon!</p>
