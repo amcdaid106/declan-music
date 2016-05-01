@@ -1,0 +1,28 @@
+{% load staticfiles %}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Declan McDaid</title>           
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+    
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Declan McDaid</a>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li><a href="/contact">Contact</a></li>
+                  <li><a href="/gigs">Gigs</a></li>
+                  <li><a href="/media">Media</a></li>
+                </ul>
+            </div>
+        </nav>
+        {% block content %}{% endblock content %}
+    </body>
+</html>
