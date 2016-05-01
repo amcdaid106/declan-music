@@ -1,4 +1,7 @@
-{% include "home/navbar.html" %}
+{% extends "base.html" %}
+
+{% block content %}
+
 {% load staticfiles %}
 {% load embed_video_tags %}
 
@@ -24,3 +27,8 @@
     <p>No media at this time. Please check back soon!</p>
 
 {% endif %}
+
+{% endblock content %}
+
+
+

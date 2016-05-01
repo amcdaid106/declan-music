@@ -1,9 +1,7 @@
-{% include "home/navbar.html" %}
+{% extends "base.html" %}
 
+{% block content %}
 {% load staticfiles %}
-
-
-<link rel="stylesheet" type="text/css" href="{% static 'gigs/style.css' %}" />
 
 {% if gigs %}
     <table>
@@ -25,3 +23,8 @@
     <p>No gigs at this time. Please check back soon!</p>
 
 {% endif %}
+
+{% endblock content %}
+
+
+
