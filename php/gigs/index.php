@@ -17,11 +17,14 @@
         <?php
             if (count($gigs) > 0) {
                 foreach ($gigs as $index => $gig) {
-                    echo '<div class="list-style">
-                              <h3 class="glyphicon glyphicon-time">' . convert_date($gig["date"]) . '</h3>
-                              <h3 class="glyphicon glyphicon-map-marker">
-                                  <a href="'. $gig["location_link"] .'" target="_blank">'. $gig["location_name"] .'</a>
-                              </h3>
+                    echo '<div class="gig-container">
+                            <div>
+                              <span class="glyphicon glyphicon-time bullet-icon"></span><span>' . convert_date($gig["date"]) . '</span>
+                            </div>
+                            <div>
+                              <span class="glyphicon glyphicon-map-marker bullet-icon"></span>
+                                <a href="'. $gig["location_link"] .'" target="_blank">'. $gig["location_name"] .'</a>
+                            </div>
                           </div>';
                 }
             }
