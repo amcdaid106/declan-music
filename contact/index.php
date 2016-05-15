@@ -1,6 +1,5 @@
-{% extends "base.html" %}
-
-{% block content %}
+<?php include '../templates/top.php'; ?>
+        
 <div class="container-fluid">
     <h1>For booking information</h1>
     <h2>Email</h2>
@@ -14,5 +13,5 @@
         <span>978 495 1723</span>
     </div>
 </div>
-{% endblock content %}
 
+<?php include '../templates/bottom.php'; ?>

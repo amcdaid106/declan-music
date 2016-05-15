@@ -1,14 +1,9 @@
-{% load staticfiles %}
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Declan McDaid</title>          
-        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" /> 
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css" /> 
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     </head>
     <body>
@@ -24,6 +19,3 @@
                 </ul>
             </div>
         </nav>
-        {% block content %}{% endblock content %}
-    </body>
-</html>

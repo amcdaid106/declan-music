@@ -32,3 +32,12 @@ p, div, article {
 .bullet-icon {
     margin-right: 12px;
 }
+
+.gig-container {
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
