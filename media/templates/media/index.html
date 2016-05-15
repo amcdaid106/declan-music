@@ -9,20 +9,18 @@
 
 
 {% if videos %}
-    <table>
+    
         {% for video in videos %}
-            <tr>
-                <td>
-                    {% video video.clip as boniche %}
-                    {% video boniche "medium" %}
-                    {% endvideo %}
-                </td>
-            </tr>
-            <tr>
-                <td>{{ video.caption }}</td>
-            </tr>
+            <div align="center">
+                {% video video.clip as boniche %}
+                {% video boniche "medium" %}
+                {% endvideo %}
+            </div>
+            <div align="center">
+                {{ video.caption }}
+            </div>
         {% endfor %}
-    </table>
+
 {% else %}
     <p>No media at this time. Please check back soon!</p>
 

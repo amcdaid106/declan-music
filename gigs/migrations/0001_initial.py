@@ -20,7 +20,6 @@ class Migration(migrations.Migration):
                 ('date_time', models.DateTimeField(verbose_name=b'date and time of gig')),
                 ('location_name', models.CharField(max_length=200)),
                 ('location_link', models.URLField()),
-                ('fb_event', models.URLField()),
             ],
         ),
     ]

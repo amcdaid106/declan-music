@@ -1,3 +1,34 @@
 body {
-    background: #EEE;
+    background-image: url("/static/images/ricepaper.png");
+    font-size: 200%;
+    font-family: 'Oswald';
+}
+
+.home-image {
+    border-radius: 10px;
+    height: 640px;
+}
+
+.home-image-container {
+    text-align: center;
+}
+
+.navbar-default {
+    background: #EADFB4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;'; 
+    font-size: 300%;
+}
+p, div, article {
+    font-family: 'Oswald';
+}
+
+.navbar-brand {
+    font-size: 125%;
+}
+
+.bullet-icon {
+    margin-right: 12px;
 }
