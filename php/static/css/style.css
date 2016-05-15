@@ -36,3 +36,8 @@ p, div, article {
 .gig-container {
     margin-bottom: 20px;
 }
+
+.video-container {
+    margin-bottom: 20px;
+    text-align: center;
+}

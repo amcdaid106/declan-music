@@ -12,31 +12,30 @@
 
 ?>
 
-    <div class="container-fluid">
+<div class="container-fluid">
 
-        <?php
-            if (count($gigs) > 0) {
-                foreach ($gigs as $index => $gig) {
-                    echo '<div class="gig-container">
-                            <div>
-                              <span class="glyphicon glyphicon-time bullet-icon"></span><span>' . convert_date($gig["date"]) . '</span>
-                            </div>
-                            <div>
-                              <span class="glyphicon glyphicon-map-marker bullet-icon"></span>
-                                <a href="'. $gig["location_link"] .'" target="_blank">'. $gig["location_name"] .'</a>
-                            </div>
-                          </div>';
-                }
+    <?php
+        if (count($gigs) > 0) {
+            foreach ($gigs as $index => $gig) {
+                echo '<div class="gig-container">
+                        <div>
+                          <span class="glyphicon glyphicon-time bullet-icon"></span><span>' . convert_date($gig["date"]) . '</span>
+                        </div>
+                        <div>
+                          <span class="glyphicon glyphicon-map-marker bullet-icon"></span>
+                            <a href="'. $gig["location_link"] .'" target="_blank">'. $gig["location_name"] .'</a>
+                        </div>
+                      </div>';
             }
-            else {
-                ?>
-                    <p>No gigs at this time. Please check back soon!</p>
-                <?php
-            }   
-        ?>
+        }
+        else {
+            ?>
+                <p>No gigs at this time. Please check back soon!</p>
+            <?php
+        }   
+    ?>
         
-    
-    </div>
+</div>
 
 <?php include '../templates/bottom.php'; ?>
 

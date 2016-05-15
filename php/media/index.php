@@ -1,12 +1,26 @@
-<?php include '../templates/top.php'; ?>
+<?php 
+    include '../templates/top.php'; 
+    $data = file_get_contents("media.json");
+    $media = json_decode($data, true);
+?>
 
-<div align="center">
-    <iframe width="640" height="480" src="http://www.youtube.com/embed/ieQgBLMKeGM?wmode=opaque" frameborder="0" allowfullscreen></iframe>    
+<div class="container-fluid">
+
+<?php
+
+foreach($media as $index => $video) {
+    echo '<div class="video-container">
+            <h2>' . $video["caption"] . '</h2>
+            <div>
+            <iframe width="640" height="480" src="' . $video["url"] . '" frameborder="0" allowfullscreen></iframe>    
+            </div>
+        </div>';
+    }
+
+?>
 </div>
 
-<div align="center">
-    Live at La Boniche
-</div>
+
 
 <?php include '../templates/bottom.php'; ?>
 
