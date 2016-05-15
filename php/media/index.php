@@ -9,3 +9,24 @@
 </div>
 
 <?php include '../templates/bottom.php'; ?>
+
+
+<?php
+// {% if videos %}
+    
+//         {% for video in videos %}
+//             <div align="center">
+//                 {% video video.clip as boniche %}
+//                 {% video boniche "medium" %}
+//                 {% endvideo %}
+//             </div>
+//             <div align="center">
+//                 {{ video.caption }}
+//             </div>
+//         {% endfor %}
+
+// {% else %}
+//     <p>No media at this time. Please check back soon!</p>
+
+// {% endif %}
+?>

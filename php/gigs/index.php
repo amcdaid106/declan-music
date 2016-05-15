@@ -1,11 +1,37 @@
 
+<?php 
+    include '../templates/top.php'; 
+    $data = file_get_contents("gigs.json");
+    $gigs = json_decode($data, true);
 
+    function convert_date($str) {
+        $date = date_create($str);
+        return date_format($date, "M j, Y g:i A");
 
-<?php include '../templates/top.php'; ?>
+    }
+
+?>
 
     <div class="container-fluid">
-    
-        <p>No gigs at this time. Please check back soon!</p>
+
+        <?php
+            if (count($gigs) > 0) {
+                foreach ($gigs as $index => $gig) {
+                    echo '<div class="list-style">
+                              <h3 class="glyphicon glyphicon-time">' . convert_date($gig["date"]) . '</h3>
+                              <h3 class="glyphicon glyphicon-map-marker">
+                                  <a href="'. $gig["location_link"] .'" target="_blank">'. $gig["location_name"] .'</a>
+                              </h3>
+                          </div>';
+                }
+            }
+            else {
+                ?>
+                    <p>No gigs at this time. Please check back soon!</p>
+                <?php
+            }   
+        ?>
+        
     
     </div>
 
