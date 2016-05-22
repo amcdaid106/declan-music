@@ -1,6 +1,6 @@
 
-<?php 
-    include '../templates/top.php'; 
+<?php
+    include '../templates/top.php';
     $data = file_get_contents("gigs.json");
     $gigs = json_decode($data, true);
     date_default_timezone_set('EST');
@@ -25,11 +25,15 @@
                       <span class="glyphicon glyphicon-time bullet-icon"></span><span>' . $gig_date . '</span>
                     </div>
                     <div>
-                      <span class="glyphicon glyphicon-map-marker bullet-icon"></span>
+                      <span class="glyphicon glyphicon-home bullet-icon"></span>
                         <a href="'. $gig["location_link"] .'" target="_blank">'. $gig["location_name"] .'</a>
                     </div>
+                    <div>
+                      <span class="glyphicon glyphicon-map-marker bullet-icon"></span>
+                        <a href="' . $gig["map_link"] .'" target="blank">'.$gig["town_state"].'</a>
+                    </div>
                   </div>';
-        } 
+        }
     }
 
 ?>
@@ -61,7 +65,7 @@
         print_gigs($past_gigs);
     ?>
 
-        
+
 </div>
 
 <?php include '../templates/bottom.php'; ?>
