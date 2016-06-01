@@ -12,5 +12,75 @@
         "location_link": "http://www.110grill.com/",
         "town_state": "Chelmsford, MA",
         "map_link": "https://goo.gl/maps/ydTHAVJbe922"
-    }
+    },
+    {
+        "date": "2016-05-13T19:00:00Z",
+        "location_name": "Independence Bar and Grill @ Radisson Hotel",
+        "location_link": "https://www.facebook.com/independencebarandgrill/",
+        "town_state": "Chelmsford, MA",
+        "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
+    },
+    {
+        "date": "2016-03-17T19:00:00Z",
+        "location_name": "Independence Bar and Grill @ Radisson Hotel",
+        "location_link": "https://www.facebook.com/independencebarandgrill/",
+        "town_state": "Chelmsford, MA",
+        "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
+    },
+    {
+        "date": "2016-02-26T19:00:00Z",
+        "location_name": "Independence Bar and Grill @ Radisson Hotel",
+        "location_link": "https://www.facebook.com/independencebarandgrill/",
+        "town_state": "Chelmsford, MA",
+        "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
+    },
+    {
+        "date": "2016-01-17T19:00:00Z",
+        "location_name": "Pig Tale Restaurant",
+        "location_link": "http://pigtalepizza.com/",
+        "town_state": "Nashua, NH",
+        "map_link": "https://goo.gl/maps/MjdvEhfsQ2H2"
+      },
+      {
+        "date": "2015-11-20T19:00:00Z",
+        "location_name": "Independence Bar and Grill @ Radisson Hotel",
+        "location_link": "https://www.facebook.com/independencebarandgrill/",
+        "town_state": "Chelmsford, MA",
+        "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
+      },
+      {
+        "date": "2015-10-31T19:00:00Z",
+        "location_name": "Independence Bar and Grill @ Radisson Hotel",
+        "location_link": "https://www.facebook.com/independencebarandgrill/",
+        "town_state": "Chelmsford, MA",
+        "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
+      },
+      {
+        "date": "2015-10-16T19:00:00Z",
+        "location_name": "Independence Bar and Grill @ Radisson Hotel",
+        "location_link": "https://www.facebook.com/independencebarandgrill/",
+        "town_state": "Chelmsford, MA",
+        "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
+      },
+      {
+        "date": "2015-09-05T19:00:00Z",
+        "location_name": "Independence Bar and Grill @ Radisson Hotel",
+        "location_link": "https://www.facebook.com/independencebarandgrill/",
+        "town_state": "Chelmsford, MA",
+        "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
+      },
+      {
+        "date": "2015-08-21T19:00:00Z",
+        "location_name": "Independence Bar and Grill @ Radisson Hotel",
+        "location_link": "https://www.facebook.com/independencebarandgrill/",
+        "town_state": "Chelmsford, MA",
+        "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
+      },
+      {
+        "date": "2015-01-04T19:00:00Z",
+        "location_name": "La Boniche Restaurant",
+        "location_link": "http://www.yelp.com/biz/la-boniche-restaurant-lowell",
+        "town_state": "Lowell, MA",
+        "map_link": "https://goo.gl/maps/wHMSDsZuPm62"
+      }
 ]

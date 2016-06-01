@@ -37,6 +37,15 @@ p, div, article {
     margin-bottom: 20px;
 }
 
+.past-gig-container {
+    margin-bottom: 20px;
+    color: #808080;
+}
+
+.past-link {
+  color: #808080;
+}
+
 .video-container {
     margin-bottom: 20px;
     text-align: center;
