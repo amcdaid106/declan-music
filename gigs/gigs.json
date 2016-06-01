@@ -28,6 +28,13 @@
         "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
     },
     {
+        "date": "2016-03-10T19:00:00Z",
+        "location_name": "Book Launch @ Long Meadow Golf Club",
+        "location_link": "https://www.facebook.com/pages/Long-Meadow-Golf-Club/111749062195573",
+        "town_state": "Lowell, MA",
+        "map_link": "https://goo.gl/maps/x6ErKykLMVA2"
+      },
+    {
         "date": "2016-02-26T19:00:00Z",
         "location_name": "Independence Bar and Grill @ Radisson Hotel",
         "location_link": "https://www.facebook.com/independencebarandgrill/",
@@ -56,11 +63,25 @@
         "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
       },
       {
+        "date": "2015-10-25T19:00:00Z",
+        "location_name": "Pig Tale Restaurant",
+        "location_link": "http://pigtalepizza.com/",
+        "town_state": "Nashua, NH",
+        "map_link": "https://goo.gl/maps/MjdvEhfsQ2H2"
+      },
+      {
         "date": "2015-10-16T19:00:00Z",
         "location_name": "Independence Bar and Grill @ Radisson Hotel",
         "location_link": "https://www.facebook.com/independencebarandgrill/",
         "town_state": "Chelmsford, MA",
         "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
+      },
+      {
+        "date": "2015-09-27T19:00:00Z",
+        "location_name": "Pig Tale Restaurant",
+        "location_link": "http://pigtalepizza.com/",
+        "town_state": "Nashua, NH",
+        "map_link": "https://goo.gl/maps/MjdvEhfsQ2H2"
       },
       {
         "date": "2015-09-05T19:00:00Z",
@@ -70,6 +91,13 @@
         "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
       },
       {
+        "date": "2015-08-30T19:00:00Z",
+        "location_name": "Pig Tale Restaurant",
+        "location_link": "http://pigtalepizza.com/",
+        "town_state": "Nashua, NH",
+        "map_link": "https://goo.gl/maps/MjdvEhfsQ2H2"
+      },
+      {
         "date": "2015-08-21T19:00:00Z",
         "location_name": "Independence Bar and Grill @ Radisson Hotel",
         "location_link": "https://www.facebook.com/independencebarandgrill/",
@@ -77,7 +105,7 @@
         "map_link": "https://goo.gl/maps/zPgLCvFi8tB2"
       },
       {
-        "date": "2015-01-04T19:00:00Z",
+        "date": "2014-01-04T19:00:00Z",
         "location_name": "La Boniche Restaurant",
         "location_link": "http://www.yelp.com/biz/la-boniche-restaurant-lowell",
         "town_state": "Lowell, MA",
